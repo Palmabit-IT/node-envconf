@@ -1,5 +1,6 @@
 # node-envconf
 Environment specific config file
+[![Build Status](https://travis-ci.org/Palmabit-IT/node-envconf.svg?branch=master)](https://travis-ci.org/Palmabit-IT/node-envconf)
 
 
 ## Installation
