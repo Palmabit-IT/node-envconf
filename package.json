@@ -1,0 +1,28 @@
+{
+  "name": "node-envconf",
+  "version": "0.0.1",
+  "description": "Environment specific config",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Palmabit-IT/node-envconf.git"
+  },
+  "keywords": [
+    "node",
+    "env",
+    "config"
+  ],
+  "author": "Palmabit Srl<hello@palmabit.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Palmabit-IT/node-envconf/issues"
+  },
+  "homepage": "https://github.com/Palmabit-IT/node-envconf",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
