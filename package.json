@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/Palmabit-IT/node-envconf",
   "devDependencies": {
-    "chai": "^3.0.0",
+    "chai": "^1.10.0",
+    "chai-fs": "^0.1.0",
     "mocha": "^2.2.5"
   }
 }
