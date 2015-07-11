@@ -9,7 +9,7 @@ module.exports = {
     if (fs.lstatSync(config_path).isDirectory()) {
       return config_path;
     } else {
-      throw new Error;
+      throw new Error();
     }
 
   },
@@ -20,7 +20,7 @@ module.exports = {
 
   getConf: function(config_dir) {
     try {
-      return config = require(this.getConfigDir(config_dir) + '/' + this.getEnv() + '.json');
+      return require(this.getConfigDir(config_dir) + '/' + this.getEnv() + '.json');
     } catch (err) {
       if (err.code && err.code === 'MODULE_NOT_FOUND') {
         throw new Error('No config file for NODE_ENV: ' + process.env.NODE_ENV);
