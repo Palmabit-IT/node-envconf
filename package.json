@@ -1,6 +1,6 @@
 {
   "name": "node-envconf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Environment specific config",
   "main": "index.js",
   "scripts": {
