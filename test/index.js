@@ -16,7 +16,7 @@ describe('#getConfigDir', function() {
       config.getConfigDir(config_dir_test + '/development.json');
     }
     catch (err) {
-      expect(err).to.eql(new Error);
+      expect(err).to.eql(new Error());
     }
   });
 

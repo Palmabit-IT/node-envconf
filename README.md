@@ -1,6 +1,5 @@
-# node-envconf
+# node-envconf [![Build Status](https://travis-ci.org/Palmabit-IT/node-envconf.svg?branch=master)](https://travis-ci.org/Palmabit-IT/node-envconf)
 Environment specific config file
-[![Build Status](https://travis-ci.org/Palmabit-IT/node-envconf.svg?branch=master)](https://travis-ci.org/Palmabit-IT/node-envconf)
 
 
 ## Installation
@@ -49,6 +48,8 @@ Check test for config example.
 ## Release History
 
 * 0.0.1 Initial release
+* 0.0.2 Add TravisCI
+* 0.0.3 Update doc
 
 ## Author
 
